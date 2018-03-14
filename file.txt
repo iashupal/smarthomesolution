@@ -1,0 +1,52 @@
+//  html 
+ <div id="mobmenu">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div id="mobmenulist">
+                <ul>
+                    <li class="mobactive">Home </li>
+                    <li>Services</li>
+                    <li>About Us</li>
+                    <li>Enquiry</li>
+                    <li>Contact Us</li>
+                </ul>
+                <div id="mobcross"><i class="fa fa-times fa-2x" aria-hidden="true"></i></div>
+</div>
+
+// css
+
+	
+#mobmenulist ul {
+    list-style: none;
+    padding: 0px;
+    color: white;
+    margin-top: 12%;
+    font-size: 30px;
+}
+
+#mobmenulist ul li {
+    text-align: center;
+    padding: 3% 0%;
+}
+
+.mobactive {
+    background: rgba(244, 244, 244, 0.5);
+    color: black;
+}
+
+#mobcross {
+    border-radius: 50%;
+    background-color: antiquewhite;
+    display: inline-block;
+    position: fixed;
+    top: 4%;
+    left: 86%;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    width: 50px;
+}
